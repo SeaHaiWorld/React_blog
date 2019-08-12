@@ -1,0 +1,32 @@
+{
+  "call": [{
+      "name": "Email",
+      "herf": "  790041427@qq.com"
+    },
+    {
+      "name": "Gitee",
+      "herf": " https://gitee.com/SeaHaiWorld"
+    },
+    {
+      "name": "Github",
+      "herf": " https://github.com/SeaHaiWorld"
+    },
+    {
+      "name": "QQ",
+      "herf": " 790041427"
+    }
+  ],
+  "title": "关于我",
+  "callme": "联系我",
+  "desc": [
+    "一个正在摸爬滚打、努力学习WEB前端的小白程序猿",
+    "西南科技大学17级学生",
+    "本科学的是物联网工程，一直向往学习编程方面相关的内容",
+    "大学算是虚度了两年光阴，悔不当初，于是下决心成为一名前端工程师"
+  ],
+  "like": [
+    "方向：WEB前端，移动端",
+    "爱好：吃饭睡觉打游戏",
+    "目标： WEB前端工程师"
+  ]
+}

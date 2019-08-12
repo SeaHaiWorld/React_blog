@@ -1,0 +1,38 @@
+{
+  "name": "杨海啸",
+  "says": "谁无暴风劲雨时,守得云开见月明",
+  "title": "海啸的个人主页",
+  "intro": "Hai Xiao Personal Growth Website",
+  "page": "/blog/Home",
+  "link": "https://gitee.com/SeaHaiWorld/projects",
+  "menu": [{
+      "id": "Home",
+      "page": "/blog/Home"
+    },
+    {
+      "id": "Blog",
+      "page": "/blog/Blog"
+    },
+    {
+      "id": "Demo",
+      "page": "/blog/Demo"
+    },
+    {
+      "id": "About me",
+      "page": "/blog/About"
+    }
+  ],
+  "desc": [{
+      "id": "Github",
+      "href": "https://gitee.com/SeaHaiWorld/projects"
+    },
+    {
+      "id": "空间",
+      "href": "https://user.qzone.qq.com/790041427/infocenter"
+    },
+    {
+      "id": "Bilibili",
+      "href": "https://space.bilibili.com/238566452"
+    }
+  ]
+}

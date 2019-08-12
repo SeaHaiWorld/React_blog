@@ -1,0 +1,90 @@
+.Demo-banner {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 92vh;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.demo-container {
+  height: 92vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.demo-democard {
+  width: 500px;
+  padding-top: 10px;
+  border-radius: 7px;
+  margin: 0px 20px 20px;
+  background-color: #e6e6e6;
+}
+
+.demo-democard:hover {
+  box-shadow: 6px 10px 10px 0 rgba(0, 0, 0, 0.2), 6px 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.demo-democard a {
+  color: #333;
+  display: flex;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.demo-democard-title {
+  height: 35px;
+  color: #000;
+  font-size: 1.2em;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1.5px solid #323232;
+}
+
+.demo-democard-img {
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1.5px solid #323232;
+}
+
+.demo-democard-img img {
+  height: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-democard-desc {
+  height: 44px;
+  display: flex;
+  color: black;
+  font-size: 1.2em;
+  line-height: 30px;
+
+}
+
+.demo-democard-desc a {
+  height: 42px;
+  flex-grow: 1;
+  display: flex;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-democard-desc a:hover {
+  height: 42px;
+  color: black;
+  border-radius: 8px;
+  background-color: white;
+}

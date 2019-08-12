@@ -1,0 +1,113 @@
+.link {
+  color: #000;
+  font-size: 17px;
+  line-height: 35px;
+}
+
+.blog {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.blog-container {
+  width: 100%;
+  height: 89vh;
+}
+
+.blogcard {
+  padding-top: 15px;
+  margin: 0px 2%;
+}
+
+.blog-desc {
+  width: 96%;
+  height: 175px;
+  padding: 20px;
+  border-radius: 7px;
+  background-color: #e6e6e6;
+}
+
+.blog-desc:hover {
+  box-shadow: 6px 10px 10px 0 rgba(0, 0, 0, 0.2), 6px 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  height: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0px;
+}
+
+.blog-desc img {
+  height: 18px;
+}
+
+.tip {
+  height: 35px;
+  display: flex;
+  font-size: 17px;
+  color: #5a5858;
+  line-height: 40px;
+  align-items: center;
+  border-top: #000 1px solid;
+}
+
+.tiplist {
+  padding: 6px;
+}
+
+.blogintro {
+  height: 75px;
+  font-size: 17px;
+  color: #5a5858;
+  line-height: 35px
+}
+
+.blogbottom {
+  height: 40px;
+  padding-left: 88%;
+  background: #e6e6e6;
+}
+
+.more {
+  margin: 5px;
+  border: none;
+  width: 120px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 12px;
+  transition: all 0.5s;
+  display: inline-block;
+  color: rgb(8, 8, 8);
+  background-color: #e6e6e6;
+
+}
+
+.more span {
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+}
+
+.more span:after {
+  top: 0;
+  opacity: 0;
+  right: -18px;
+  content: '»';
+  transition: 0.5s;
+  position: absolute;
+  padding-bottom: 2px;
+}
+
+.more:hover span {
+  padding-right: 18px;
+}
+
+.more:hover span:after {
+  right: 0;
+  opacity: 1;
+}

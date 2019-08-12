@@ -1,0 +1,91 @@
+.Lay {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home-banner {
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #323232;
+  transition: width 0.5s ease-in;
+}
+
+.home-banner-me {
+  width: 400px;
+  height: 360px;
+}
+
+.home-banner-photo {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-banner-photo img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.home-banner-desc {
+  color: #fff;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.home-banner-desc h1 {
+  font-size: 27px;
+  font-weight: 500;
+  color: #e6e6e6;
+  transition: color 0.2s ease-out;
+}
+
+.home-banner-desc h1:hover {
+  color: #ffff;
+}
+
+.home-banner-desc p {
+  margin: 10px;
+  font-size: 20px;
+  color: #e6e6e6;
+  transition: color 0.2s ease-out;
+}
+
+.home-banner-desc p:hover {
+  color: #ffff;
+}
+
+.home-banner-link {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-banner-link a {
+  font-size: 18px;
+  color: #13daec;
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+}
+
+.home-banner-link a:hover {
+  font-size: 20px;
+  color: #8eeff8;
+  text-decoration: none;
+}
+
+.home-banner-link span {
+  color: #ffff;
+  font-size: 20px;
+}
+
+.show {
+  font-size: 20px;
+  color: #e6e6e6;
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+}

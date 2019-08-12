@@ -1,0 +1,125 @@
+{
+  "Blog": [
+    {
+      "id": 1,
+      "title": "这是一个测试",
+      "date": "2019-8-1",
+      "label": [
+        "标签",
+        "、标签"
+      ],
+      "intro": "My dear man, you are welcome to stay",
+      "article": "/blog/Blog"
+    },
+    {
+      "id": 2,
+      "title": "React学习——使用React进行父子组件传值",
+      "date": "2019-8-3",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "在React项目里，父子组件传值是比较常见的，今天研究了一下react的父子组件传值，父组件向子组件传值，父通过初始state，子组件通过this.props进行接收就可",
+      "article": "https://gitee.com/SeaHaiWorld/codes/puf1lvxki83rqtsdbjh6541"
+    },
+    {
+      "id": 3,
+      "title": "React学习——Router路由的使用和页面跳转",
+      "date": "2019-8-4",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "在一张页面中，我们该如何去实现页面跳转呢? Router为我们提供了页面跳转渲染的方法，React应用会根据链接地址去决定要渲染的内容链接地址。不再是直接跳转，而是去告诉React，我需要怎么样的内容，让React条件渲染",
+      "article": "https://gitee.com/SeaHaiWorld/codes/dx2vbl4psjhcf60mou97590"
+    },
+    {
+      "id": 4,
+      "title": "Git-- git 新建分支并提交本地代码到远程分支",
+      "date": "2019-8-5",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "step1，本地初始化一个仓库，设置远程仓库地址后,再在本地新建分支git init git branch newbranch git remote add origin https://gitee.com/用户地址/.git",
+      "article": "https://gitee.com/SeaHaiWorld/codes/w3znxgdrc7e6q2oys8hv475"
+    },
+    {
+      "id": 5,
+      "title": "React GET请求获取本地数据json",
+      "date": "2019-8-6",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "如何在React项目中获取本地数据json并渲染?在React项目中 我们可以通过GET请求获取本地数据json文件中的数据",
+      "article": "/blog/Blog"
+    },
+    {
+      "id": 6,
+      "title": "React学习——Router路由的使用和页面跳转",
+      "date": "2019-8-7",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "在一张页面中，我们该如何去实现页面跳转呢? Router为我们提供了页面跳转渲染的方法，React应用会根据链接地址去决定要渲染的内容链接地址。不再是直接跳转，而是去告诉React，我需要怎么样的内容，让React条件渲染",
+      "article": "https://gitee.com/SeaHaiWorld/codes/dx2vbl4psjhcf60mou97590"
+    },
+    {
+      "id": 7,
+      "title": "Git-- git 新建分支并提交本地代码到远程分支",
+      "date": "2019-8-8",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "step1，本地初始化一个仓库，设置远程仓库地址后,再在本地新建分支git init git branch newbranch git remote add origin https://gitee.com/用户地址/.git",
+      "article": "https://gitee.com/SeaHaiWorld/codes/w3znxgdrc7e6q2oys8hv475"
+    },
+    {
+      "id": 8,
+      "title": "React GET请求获取本地数据json",
+      "date": "2019-8-8",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "如何在React项目中获取本地数据json并渲染?在React项目中 我们可以通过GET请求获取本地数据json文件中的数据",
+      "article": "/blog/Blog"
+    },
+    {
+      "id": 9,
+      "title": "React学习——Router路由的使用和页面跳转",
+      "date": "2019-8-9",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "在一张页面中，我们该如何去实现页面跳转呢? Router为我们提供了页面跳转渲染的方法，React应用会根据链接地址去决定要渲染的内容链接地址。不再是直接跳转，而是去告诉React，我需要怎么样的内容，让React条件渲染",
+      "article": "https://gitee.com/SeaHaiWorld/codes/dx2vbl4psjhcf60mou97590"
+    },
+    {
+      "id": 10,
+      "title": "Git-- git 新建分支并提交本地代码到远程分支",
+      "date": "2019-8-10",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "step1，本地初始化一个仓库，设置远程仓库地址后,再在本地新建分支git init git branch newbranch git remote add origin https://gitee.com/用户地址/.git",
+      "article": "https://gitee.com/SeaHaiWorld/codes/w3znxgdrc7e6q2oys8hv475"
+    },
+    {
+      "id": 11,
+      "title": "React GET请求获取本地数据json",
+      "date": "2019-8-11",
+      "label": [
+        "前端",
+        "、React"
+      ],
+      "intro": "如何在React项目中获取本地数据json并渲染?在React项目中 我们可以通过GET请求获取本地数据json文件中的数据",
+      "article": "/blog/Blog"
+    }
+  ]
+}
