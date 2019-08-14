@@ -1,90 +1,89 @@
 .link {
   color: #000;
-  font-size: 17px;
-  line-height: 35px;
-}
-
-.blog {
-  width: 100%;
-  overflow-y: auto;
+  line-height: 3vh;
 }
 
 .blog-container {
-  width: 100%;
-  height: 89vh;
+  padding: 2vh 0 0 0.5vw;
+  width: 74vw;
+  height: 91vh;
+  overflow-y: auto;
 }
 
 .blogcard {
-  padding-top: 15px;
-  margin: 0px 2%;
+  margin: 0px 2% 4.5vh;
+  height: 175px;
+  max-height: 24vw;
 }
 
 .blog-desc {
   width: 96%;
-  height: 175px;
-  padding: 20px;
-  border-radius: 7px;
+  height: 160px;
+  max-height: 24vw;
+  padding: 1vw;
+  border-radius: 1vw;
   background-color: #e6e6e6;
+  overflow: hidden;
 }
 
 .blog-desc:hover {
   box-shadow: 6px 10px 10px 0 rgba(0, 0, 0, 0.2), 6px 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-h1 {
-  height: 10px;
-  font-size: 20px;
-  font-weight: 500;
+.blog-desc a {
+  height: 1vw;
   line-height: 0px;
 }
 
+.blog-desc h1{
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
 .blog-desc img {
-  height: 18px;
+  height: 1vw;
 }
 
 .tip {
-  height: 35px;
+  height: 4.5vh;
+  max-height: 4VW;
   display: flex;
-  font-size: 17px;
+  font-size: 1vw;
   color: #5a5858;
-  line-height: 40px;
+  line-height: 1vw;
   align-items: center;
   border-top: #000 1px solid;
 }
 
 .tiplist {
-  padding: 6px;
+  padding: 0.5vw;
 }
 
 .blogintro {
-  height: 75px;
-  font-size: 17px;
+  height: 12vh;
+  max-height: 8vw;
+  font-size: 1.1vw;
   color: #5a5858;
-  line-height: 35px
 }
 
 .blogbottom {
-  height: 40px;
-  padding-left: 88%;
-  background: #e6e6e6;
+  padding-left: 53vw;
 }
 
 .more {
-  margin: 5px;
   border: none;
-  width: 120px;
+  width: 14vw;
   cursor: pointer;
   text-align: center;
-  border-radius: 12px;
   transition: all 0.5s;
   display: inline-block;
-  color: rgb(8, 8, 8);
   background-color: #e6e6e6;
 
 }
 
 .more span {
-  font-size: 16px;
+  color: #5a5858;
+  font-size: 1.1vw;
   cursor: pointer;
   transition: 0.5s;
   position: relative;
@@ -96,7 +95,7 @@ h1 {
 .more span:after {
   top: 0;
   opacity: 0;
-  right: -18px;
+  right: -1.1vw;
   content: '»';
   transition: 0.5s;
   position: absolute;
@@ -104,10 +103,12 @@ h1 {
 }
 
 .more:hover span {
-  padding-right: 18px;
+  padding-right: 1.1vw;
+  color: #000
 }
 
 .more:hover span:after {
   right: 0;
   opacity: 1;
+  
 }

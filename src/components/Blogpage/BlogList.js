@@ -4,7 +4,7 @@ import Day from "../../assets/Day.png";
 import label from "../../assets/label.png";
 import axios from "axios";
 
-class Page1 extends Component {
+class BlogList extends Component {
   constructor(props) {
     //构造函数
     super(props);
@@ -20,7 +20,7 @@ class Page1 extends Component {
   getDate() {
     axios
       .get(
-        "../blogdata.json"
+        "https://raw.githubusercontent.com/SeaHaiWorld/blog/gh-pages/blogdata.json"
       )
       .then(res => {
         this.setState({ blogdata: res.data });
@@ -81,4 +81,4 @@ class Page1 extends Component {
   }
 }
 
-export default Page1;
+export default BlogList;

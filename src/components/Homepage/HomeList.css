@@ -1,0 +1,137 @@
+.home-container {
+  width: 73.9vw;
+  height: 93vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container a:hover{
+  font-size: 1.01vw;
+}
+
+
+.blogbanner {
+  width: 70vw;
+  height: 47vh;
+  margin: 1vw 1vw;
+  padding: 0 1vh;
+  overflow: hidden;
+  border-radius: 1vw;
+  background-color: #e6e6e6;
+}
+
+.blogbanner:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blogbannerlist {
+  padding: 1vh 2vw;
+  height: 40vh;
+  overflow-y: auto;
+}
+
+.blogbanner-title {
+  height: 4.5vh;
+  color: #000;
+  font-size: 1.1vw;
+  line-height: 4.5vh;
+  text-align: center;
+  border-bottom: 1px solid #323232;
+}
+
+.bloglist {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  font-size: 1vw;
+  line-height: 5vh;
+}
+
+.blogbanner-list a {
+  width: 50vw;
+  font-size: 1vw;
+  line-height: 5vh;
+}
+
+.bloglist-title {
+  width: 100%
+}
+
+.list-date {
+  width: 23%;
+}
+
+.demobanner {
+  padding-bottom: 3vh;
+  width: 71vw;
+  height: 36vh;
+  margin: 0px 1vw 2vw;
+  border-radius: 1vw;
+  overflow: hidden;
+  background-color: #e6e6e6;
+
+}
+
+.demobanner:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.demobannerlist {
+  width: 71vw;
+  height: 33vh;
+  padding: 0.5vh 0 1vh 1vh;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 1vh;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b6b6b6;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 1vh;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 1vh;
+}
+
+.demobannerlist img {
+  height: 30vh;
+  max-height: 45vw;
+  width: auto;
+  max-width: 30vw;
+}
+
+.demobanner-title {
+  height: 4.5vh;
+  color: #000;
+  font-size: 1.1vw;
+  line-height: 4.5vh;
+  text-align: center;
+  border-bottom: 1px solid #323232;
+}
+
+.demolist {
+  height: 33vh;
+  padding: 0 0.7vw;
+  border: #e6e6e6 1.5px solid;
+  border-radius: 1vh;
+  background-color: #e6e6e6
+}
+
+.demolist:hover {
+  border: white 1.5px solid;
+}
+
+.demolist-title {
+  text-align: center;
+}

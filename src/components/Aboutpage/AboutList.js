@@ -19,7 +19,7 @@ class AboutList extends Component {
   getDate() {
     axios
       .get(
-        "../aboutdata.json"
+        "https://raw.githubusercontent.com/SeaHaiWorld/blog/gh-pages/aboutdata.json"
       )
       .then(res => {
         this.setState({ aboutdata: res.data });

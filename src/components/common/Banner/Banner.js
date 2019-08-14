@@ -3,7 +3,7 @@ import "./Banner.css";
 import AboutList from "../../Aboutpage/AboutList";
 import BlogList from "../../Blogpage/BlogList";
 import DemoPage from "../../Demopage/DemoPage.js";
-import BannerList from "../../Homepage/BannerList";
+import HomeList from "../../Homepage/HomeList";
 
 class Banner extends Component {
   constructor(props) {
@@ -20,7 +20,7 @@ class Banner extends Component {
           display: this.props.listDisplay
         }}
       >
-        {this.props.pathname === "/blog/Home" && <BannerList />}
+        {this.props.pathname === "/blog/Home" && <HomeList />}
         {this.props.pathname === "/blog/About" && <AboutList />}
         {this.props.pathname === "/blog/Demo" && <DemoPage />}
         {this.props.pathname === "/blog/Blog" && <BlogList />}

@@ -1,26 +1,27 @@
 import React, { Component } from "react";
-import "./commonpage.css";
-import Wall from "../common/Wall/Wall";
-import Header from "../common/Header/Header";
+import "./CommonPage.css";
+import Wall from "./Wall/Wall";
+import Header from "./Header/Header";
 import Banner from "./Banner/Banner";
-import Bottom from "../common/Bottom/Bottom";
-import BannerCard from "../Homepage/BannerCard";
+import Bottom from "./Bottom/Bottom";
 
-class Commonpage extends Component {
+class CommonPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
       index: "none",
-      Width: "100%",
-      listWidth: "75%",
-      Display: "none"
+      Width: "100vw",
+      listWidth: "75vw",
+      Display: "none",
+      img: "25vh"
     };
   }
 
   routejump = e => {
     this.setState({
-      Width: "400px",
-      index: "block"
+      Width: "25vw",
+      index: "block",
+      img: "13.5vw"
     });
     setTimeout(() => {
       this.setState({
@@ -33,8 +34,9 @@ class Commonpage extends Component {
     const isView = e => e === "/blog";
     if (isView(this.props.location.pathname)) {
       this.setState({
-        Width: "400px",
-        index: "block"
+        Width: "25vw",
+        index: "block",
+        img: "13.5vw"
       });
       setTimeout(() => {
         this.setState({
@@ -44,9 +46,10 @@ class Commonpage extends Component {
       }, 500);
     } else {
       this.setState({
-        Width: "100%",
+        Width: "100vw",
         Display: "none",
-        index: "none"
+        index: "none",
+        img: "25vh"
       });
       setTimeout(() => {
         this.props.history.push("/blog");
@@ -63,6 +66,7 @@ class Commonpage extends Component {
             index={this.state.index}
             handleClick={this.handleClick}
             bannerWidth={this.state.Width}
+            imgWidth={this.state.img}
           />
           <Banner
             pathname={this.props.location.pathname}
@@ -70,10 +74,9 @@ class Commonpage extends Component {
             listDisplay={this.state.Display}
           />
         </div>
-        {this.props.location.pathname === "/blog" && <BannerCard />}
         <Bottom />
       </div>
     );
   }
 }
-export default Commonpage;
+export default CommonPage;

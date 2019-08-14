@@ -37,18 +37,24 @@ class Wall extends Component {
 
   render() {
     return (
-      <div className="home-banner" style={{ width: this.props.bannerWidth }}>
-        <div className="home-banner-me">
+      <div className="wall" style={{ width: this.props.bannerWidth }}>
+        <div className="wall-me">
           <div
-            className="home-banner-photo"
+            className="wall-photo"
             onClick={this.props.handleClick.bind(this)}
           >
-            <img title="Click me" src={Logo} alt="头像" className="img" />
+            <img
+              title="Click me"
+              src={Logo}
+              alt="头像"
+              className="img"
+              style={{ width: this.props.imgWidth }}
+            />
           </div>
-          <div className="home-banner-desc">
+          <div className="wall-desc">
             <h1>{this.state.commondata.name}</h1>
-            <p>{this.state.commondata.says}</p>
-            <div className="home-banner-link">
+            <div className="wall-says">{this.state.commondata.says}</div>
+            <div className="wall-link">
               {this.state.commondata.desc.map((item, key) => {
                 return (
                   <div className="link" key={key}>

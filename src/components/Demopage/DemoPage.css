@@ -1,0 +1,118 @@
+.Demo-banner {
+  height: 93vh;
+  background-color: white;
+}
+
+.demo-container {
+  padding: 2vh 0 0 0.5vw;
+  width: 74vw;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  height: 93vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.demo-democard {
+  height: 83vh;
+  width: 70vw;
+  max-height: 90vw;
+  padding-top: 1vh;
+  border-radius: 7px;
+  margin: 1vw 2vw 6vh 2vw;
+  background-color: #e6e6e6;
+}
+
+.demo-democard:hover {
+  box-shadow: 6px 10px 10px 0 rgba(0, 0, 0, 0.2), 6px 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.demo-democard a {
+  color: #333;
+  display: flex;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.demo-democard-title {
+  height: 5vh;
+  color: #000;
+  line-height: 4vh;
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+.demo-democard-img {
+  height: 72vh;
+  display: flex;
+  max-height: 80vw;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+  border: 1px solid #e6e6e6;
+}
+
+.img-eg {
+  width: 500px;
+  height: 72vh;
+  max-height: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-democard-img img {
+  width: auto;
+  max-width: 55vw;
+  height: 70vh;
+  max-height: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.demo-democard-desc {
+  height: 5vh;
+  display: flex;
+  color: black;
+  font-size: 1.3vw;
+  line-height: 3vh;
+  border-bottom-right-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  background-color: #e6e6e6
+}
+
+.demo-democard-desc a {
+  height: 5vh;
+  flex-grow: 1;
+  display: flex;
+  border-radius: 1vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 5vh;
+}
+
+.demo-democard-desc div {
+  height: 5vh;
+  flex-grow: 1;
+  display: flex;
+  border-radius: 1vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  list-style: height 5px;
+}
+
+.demo-democard-desc a:hover {
+  height: 5.5vh;
+  color: black;
+  background-color: white;
+}
