@@ -1,47 +1,44 @@
 import React, { Component } from "react";
 import "./DemoPage.css";
-import Cal from "../../assets/Cal.png";
-import Cal2 from "../../assets/Cal2.png";
-import Todo from "../../assets/Todo.png";
-import Todo2 from "../../assets/Todo2.png";
-import menu from "../../assets/menu.png";
-import menu2 from "../../assets/menu2.png";
+import axios from "axios";
 
 class DemoPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      Demo: [
-        {
-          id: "Todo List by React",
-          img1: Todo,
-          img2: Todo2,
-          page1: "https://seahaiworld.gitee.io/todo-list/",
-          page2: "https://gitee.com/SeaHaiWorld/Todo-List/tree/Todo/"
-        },
-        {
-          id: "右拉菜单",
-          img1: menu,
-          img2: menu2,
-          page1: "https://seahaiworld.gitee.io/menu",
-          page2: "https://gitee.com/SeaHaiWorld/menu"
-        },
-        {
-          id: "Simple Caculate",
-          img1: Cal,
-          img2: Cal2,
-          page1: " https://seahaiworld.gitee.io/cal",
-          page2: "https://gitee.com/SeaHaiWorld/Cal"
-        }
-      ]
+      demodata: {
+        Demo: [
+          {
+            id: "",
+            img: "",
+            img2: "",
+            page1: "",
+            page2: ""
+          }
+        ]
+      }
     };
+  }
+
+  getDate() {
+    axios
+      .get(
+        "https://raw.githubusercontent.com/SeaHaiWorld/blog/gh-pages/demodata.json"
+      )
+      .then(res => {
+        this.setState({ demodata: res.data });
+      });
+  }
+
+  componentDidMount() {
+    this.getDate();
   }
 
   render() {
     return (
       <div className="Demo-banner">
         <div className="demo-container">
-          {this.state.Demo.map((item, key) => {
+          {this.state.demodata.Demo.map((item, key) => {
             return (
               <div key={key} className="demo-democard">
                 <div className="demo-democard-title">
@@ -55,7 +52,7 @@ class DemoPage extends Component {
                 </div>
                 <div className="demo-democard-img">
                   <div className="img-eg">
-                    <img src={item.img1} alt="示例" />
+                    <img src={item.img} alt="示例" />
                   </div>
                   <div className="img-eg">
                     <img src={item.img2} alt="示例" />

@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 import "./HomeList.css";
 import axios from "axios";
-import Cal from "../../assets/Cal.png";
-import Cal2 from "../../assets/Cal2.png";
-import Todo from "../../assets/Todo.png";
-import Todo2 from "../../assets/Todo2.png";
-import menu from "../../assets/menu.png";
-import menu2 from "../../assets/menu2.png";
 
 class HomeList extends Component {
   constructor(props) {
@@ -21,26 +15,16 @@ class HomeList extends Component {
           }
         ]
       },
-      img: [
-        {
-          id: "Calculator",
-          img: Cal,
-          img2: Cal2,
-          page: " https://seahaiworld.gitee.io/cal"
-        },
-        {
-          id: "Todo List",
-          img: Todo,
-          img2: Todo2,
-          page: "https://seahaiworld.gitee.io/todo-list/"
-        },
-        {
-          id: "Menu",
-          img: menu,
-          img2: menu2,
-          page: "https://seahaiworld.gitee.io/menu"
-        }
-      ]
+      demodata: {
+        Demo: [
+          {
+            id: "",
+            img: "",
+            img2: "",
+            page1: ""
+          }
+        ]
+      }
     };
   }
 
@@ -52,6 +36,9 @@ class HomeList extends Component {
       .then(res => {
         this.setState({ blogdata: res.data });
       });
+    axios.get("https://raw.githubusercontent.com/SeaHaiWorld/blog/gh-pages/demodata.json").then(res => {
+      this.setState({ demodata: res.data });
+    });
   }
 
   componentDidMount() {
@@ -91,7 +78,7 @@ class HomeList extends Component {
           <div className="demobanner">
             <div className="demobanner-title">DemoList</div>
             <div className="demobannerlist">
-              {this.state.img.map((item, key) => {
+              {this.state.demodata.Demo.map((item, key) => {
                 return (
                   <div className="demolist" key={key}>
                     <a
