@@ -1,0 +1,7 @@
+.backtop {
+  width:2.5vw;
+  behavior: 'smooth';
+  position: absolute;
+  bottom: 4vh;
+  right:1.3vw
+}

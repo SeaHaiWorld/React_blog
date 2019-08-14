@@ -49,10 +49,14 @@
   line-height: 5vh;
 }
 
-.blogbanner-list a {
+.bloglist a {
   width: 50vw;
   font-size: 1vw;
   line-height: 5vh;
+}
+
+.bloglist a:hover{
+  font-size: 0.99vw;
 }
 
 .bloglist-title {
@@ -133,5 +137,6 @@
 }
 
 .demolist-title {
+  font-size: 1vw;
   text-align: center;
 }

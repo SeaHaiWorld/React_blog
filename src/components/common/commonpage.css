@@ -1,8 +1,18 @@
-a{
+a {
   text-decoration: none;
 }
 
-.Home{
+.Home {
   width: 100%;
 }
 
+.right{
+  width: 3vw;
+  position: absolute;
+  top:47.5vh;
+  left: 21.2vw;
+}
+
+.right:hover{
+  width: 3.05vw
+}

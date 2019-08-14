@@ -36,9 +36,13 @@ class HomeList extends Component {
       .then(res => {
         this.setState({ blogdata: res.data });
       });
-    axios.get("https://raw.githubusercontent.com/SeaHaiWorld/blog/gh-pages/demodata.json").then(res => {
-      this.setState({ demodata: res.data });
-    });
+    axios
+      .get(
+        "https://raw.githubusercontent.com/SeaHaiWorld/blog/gh-pages/demodata.json"
+      )
+      .then(res => {
+        this.setState({ demodata: res.data });
+      });
   }
 
   componentDidMount() {
@@ -85,7 +89,7 @@ class HomeList extends Component {
                       className="link"
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={item.page}
+                      href={item.page1}
                     >
                       <div className="demolist-title">{item.id}</div>
                       <img src={item.img} alt="eg" />

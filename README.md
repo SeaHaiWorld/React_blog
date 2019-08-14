@@ -4,6 +4,6 @@ You can go through: [https://seahaiworld.github.io/blog/](https://seahaiworld.gi
 
 You can try: npm run start to test it or try npm run build to build
 
-[展示图片1](https://github.com/SeaHaiWorld/blog/blob/master/src/assets/show.png?raw=true)
+![Image text](https://github.com/SeaHaiWorld/blog/blob/master/src/assets/show.png?raw=true)
 
-[展示图片2](https://github.com/SeaHaiWorld/blog/blob/master/src/assets/show2.png?raw=true)
+![Image text](https://github.com/SeaHaiWorld/blog/blob/master/src/assets/show2.png?raw=true)

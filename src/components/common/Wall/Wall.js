@@ -3,6 +3,7 @@ import "./Wall.css";
 import Logo from "../../../assets/logo.png";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import Share from "../../../assets/share.png";
 
 class Wall extends Component {
   constructor(props) {
@@ -70,13 +71,27 @@ class Wall extends Component {
                 );
               })}
             </div>
-            <Link
-              to="/blog/About"
-              className="show"
-              style={{ display: this.props.index }}
-            >
-              <p>关于我</p>
-            </Link>
+            <div>
+              <Link
+                to="/blog/About"
+                className="show"
+                style={{ display: this.props.index }}
+              >
+                <p>关于我</p>
+              </Link>
+              <Link
+                to="/blog/About"
+                className="show"
+                style={{ display: this.props.index }}
+              >
+                <img
+                  title="Click me"
+                  src={Share}
+                  alt="头像"
+                  className="share"
+                />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
