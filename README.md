@@ -1,5 +1,7 @@
 # 本作品系初学前端时所开发，是一个使用React构建的简单个人博客
 
+所涉及的技术不多，水平不高。但是极大提升了个人对前端的兴趣，激发了本人学习前端的动力
+
 你可以通过: npm run start 测试 或者npm run build 打包
 
 You can try: npm run start to test it or try: npm run build to build
