@@ -1,4 +1,4 @@
-# 这是一个使用React构建的简单个人博客
+# 本作品系初学前端时所开发，是一个使用React构建的简单个人博客
 
 你可以通过: npm run start 测试 或者npm run build 打包
 
